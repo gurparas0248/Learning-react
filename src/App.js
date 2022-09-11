@@ -10,7 +10,16 @@ function App() {
 
       {/* <Greet />
       <Welcome /> */}
-      <Hello />
+      <Greet name="paras" heroName="Superman">
+        <p>This is Children props</p>
+      </Greet>
+      <Greet name="hahahah" heroName="Batman">
+        <button>Action</button>
+      </Greet>
+      <Greet name="Bitch" heroName="Spiderman"/>
+
+      
+      <Welcome name="paras" heroName="Superman" />
       
     </div>
   );
